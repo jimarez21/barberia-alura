@@ -1,0 +1,61 @@
+body{
+    /* background: #CCCCCC; */
+}
+
+#banner{
+    width:100%;
+}
+
+.principal {
+    background: #cccccc ;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color:red;
+}
+/* El identificador es unico y solo se puede usar una vez */
+#mision{
+    font-size: 20px;
+}
+/* Por otro lado, las clases se puede reutilizar estilos*/
+.diferenciales {
+    background: #ffffff;
+    padding: 30px; /* El padding recordando es el espaciamiento interno de los elementos */
+}
+
+h2 {
+    text-align: center;
+}
+
+.items {
+    font-style: italic;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top; /* vertical-align, de alineamiento vertical */
+    width: 20%; /* definimos el ancho de la lista  */
+    margin-right: 15%; /* margen derecho de 15% */
+}
+
+.imagenDiferenciales {
+    width: 50%;
+}
+
+/* Lo que aprendimos en esta aula
+
+Conocimos las listas (ordenadas y no ordenadas), trabajamos con listas no ordenadas.
+Vimos que para cada ítem de la lista necesitamos usar la etiqueta <li>.
+El concepto de las clases en el CSS, estas sirven para marcar ítems, solo que podemos replicar los estilos en varios elementos.
+Cómo referenciar una clase en el CSS.
+Divisores de contenido, utilizando la etiqueta <div>.
+Los comportamientos inline y block. */

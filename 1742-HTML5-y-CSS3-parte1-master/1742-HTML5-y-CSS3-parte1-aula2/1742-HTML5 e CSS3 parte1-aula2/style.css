@@ -1,0 +1,13 @@
+body {
+    background: #cccccc;
+}
+
+p{
+    text-align: center;
+}
+/* Todo lo que adicionamos en el elemnto padre es reflejado en los elemntos hijos, en este caso la declaración afecta a todas las etiquetas <p>, pero si una de ellas tiene un elemento hijo, esta tambien se verá afectada. */
+
+em strong {
+    /* Podemos usar diferentes combinaciones de selectores para las etiquetas especificas, tal como lo menciona ekl lenguaje en "cascada" */
+    color: red;
+}
